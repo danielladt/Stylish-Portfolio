@@ -1,7 +1,2 @@
-
-
-# Ignore folder named 'vendor' 
-vendor/
-
 #Ignore all .vs files
 *.vs
