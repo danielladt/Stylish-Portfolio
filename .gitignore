@@ -1,4 +1,8 @@
+# Ignore folder named 'assets' 
 assets/
+
+# Ignore folder named 'vendor' 
 vendor/
-LICENSE/
-.vs/
+
+#Ignore all .vs files
+*.vs
