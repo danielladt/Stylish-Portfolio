@@ -1,4 +1,4 @@
-assets
-vendor
-LICENSE
-.vs
+assets/
+vendor/
+LICENSE/
+.vs/
