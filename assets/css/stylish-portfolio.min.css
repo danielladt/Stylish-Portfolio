@@ -182,19 +182,19 @@
  }
  .callout{
  	padding:15rem 0;
- 	background:linear-gradient(90deg,rgba(255,255,255,.1)0,
+ 	background:linear-gradient(90deg,rgba(255, 255, 255, 0)0,
  		rgba(255,255,255,.1) 100%),
- 	    url(../images/techgirl.jpeg);
+		 url(../images/techgirl.jpeg);
+		filter: opacity(95%);
  	background-position:center center;
  	background-repeat:no-repeat;
  	background-size:cover
  }
  .callout h2{
- 	font-size:3.5rem;
+ 	font-size:5rem;
  	font-weight:700;
  	display:block;
-	 max-width:30rem;
-	 color:#ffffff 
+	max-width:30rem;
  }
  .portfolio-item{
  	display:block;
