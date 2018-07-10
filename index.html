@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Daniella Devoto - Portfolio</title>
+    <title>Daniella Devoto | Website</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
@@ -24,33 +24,36 @@
   </head>
 
   <body id="page-top">
-    <!-- Side Bar Navigation -->
-    <a class="menu-toggle rounded" href="#">
-      <i class="fa fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Daniella's Portfolio</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Services</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- End of Navigation -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <img src="assets/images/logo2.png" alt="logo" width="65" height="65">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#page-top">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
 
     <!-- Header -->
     <header class="masthead d-flex">
@@ -71,10 +74,10 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>Passionate in Web Design and Development</h2>
-            <p class="lead mb-5">I enjoy using my design, problem solving and technical skills into projects. 
-                I have Front-End Development experience involving Web Design, Interactive Applications, Web Maintenance and Debugging. 
-                I also have Back-End experience including databases, REST APIs and Node.js.
+            <h2 id="abouthead">Passionate in Web Design and Development</h2>
+            <p class="lead mb-5"><strong>I enjoy using my design, problem solving and technical skills into projects. 
+                I have Front-End Development experience involving Web Design, Interactive Websites, Web Maintenance and Debugging. 
+                I also have Back-End experience including databases, REST APIs and Node.js.</strong>
             </p>
             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Let's Work Together</a>
           </div>
@@ -87,7 +90,7 @@
     <section class="content-section bg-primary text-white text-center" id="services">
       <div class="container">
         <div class="content-section-heading">
-          <h2 class="text-secondary mb-5">At Your Service</h2>
+          <h2 class="text-secondary mb-5">Services</h2>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -95,7 +98,7 @@
               <i class="icon-pencil"></i>
             </span>
             <h4>
-              <strong>Web Development</strong>
+              <strong>Web Design</strong>
             </h4>
             <p class="text-faded mb-0">Great User-Interface and functionality in all websites</p>
           </div>
@@ -104,9 +107,9 @@
               <i class="icon-screen-smartphone"></i>
             </span>
             <h4>
-              <strong>Responsive Design</strong>
+              <strong>Web Development</strong>
             </h4>
-            <p class="text-faded mb-0">Looks great on any screen size!</p>
+            <p class="text-faded mb-0">Responsive websites that look great on any screen size!</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -115,7 +118,7 @@
             <h4>
               <strong>Professionalism</strong>
             </h4>
-            <p class="text-faded mb-0">Dedicated to building sophisticated websites</p>
+            <p class="text-faded mb-0">Dedicated to building sophisticated, yet user-friendly websites</p>
           </div>
           <div class="col-lg-3 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
@@ -132,14 +135,14 @@
     <!-- End of Services -->
 
     <!-- Checkout Projects -->
-    <section class="callout">
+    <!-- <section class="callout">
       <div class="container text-center">
         <h2 class="mx-auto mb-5">Check out
           <em>my</em>
           projects!</h2>
         <a class="btn btn-primary btn-xl mb-0" href="#portfolio">Explore</a>
       </div>
-    </section>
+    </section> -->
     <!-- End of Checkout -->
 
     <!-- Portfolio -->
@@ -214,15 +217,15 @@
         <h2 class="mb-2">Contact Me</h2>
         <ul class="list-unstyled">
           <li>
+            <i class="fa fa-envelope fa-fw">
+            </i>
+            <a href="mailto:danielladevoto@gmail.com">danielladevoto@gmail.com</a>
+          </li>
+          <li>
             <i class="fa fa-phone fa-fw">
             </i>
             <a href="tel:914-826-3863">914-826-3863</a>
           </li>
-          <li>
-              <i class="fa fa-envelope fa-fw">
-              </i>
-              <a href="mailto:danielladevoto@gmail.com">danielladevoto@gmail.com</a>
-            </li>
         </ul>
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
@@ -236,7 +239,7 @@
             </a>
           </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Daniella Devoto 2018</p>
+        <p class="text-muted small mb-0">Copyright &copy; Daniella Devoto 2018. All Rights Reserved</p>
       </div>
     </footer>
     <!-- End of Footer -->

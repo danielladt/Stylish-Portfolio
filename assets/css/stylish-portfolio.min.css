@@ -3,7 +3,7 @@
  	height:100%
  }
  body{
- 	font-family:'Source Sans Pro'
+ 	font-family:'Source Sans Pro';
  }
  .btn-xl{
  	padding:1.25rem 2.5rem
@@ -91,7 +91,17 @@
  		font-size:5.5rem
  	}
  }
- #sidebar-wrapper{
+
+ .navbar {
+	padding: 0;
+	margin-bottom: 0;
+ }
+
+ .nav-link {
+	 font-size: 18px;
+ }
+
+ /* #navbar-wrapper{
  	position:fixed;
  	z-index:2;
  	right:0;
@@ -105,8 +115,8 @@
  	transform:translateX(250px);
  	background:#1d809f;
  	border-left:1px solid rgba(255,255,255,.1)
- }
- .sidebar-nav{
+ }  */
+ /* .sidebar-nav{
  	position:absolute;
  	top:0;
  	width:250px;
@@ -169,7 +179,7 @@
  }
  .menu-toggle:hover{
  	background:#343a40
- }
+ } */
  .service-icon{
  	background-color:#fff;
  	color:#1d809f;
