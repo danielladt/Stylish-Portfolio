@@ -9,7 +9,7 @@
  	padding:1.25rem 2.5rem
  }
  .content-section{
- 	padding-top:7.5rem;
+ 	padding-top:6.5rem;
  	padding-bottom:7.5rem
  }
  .content-section-heading h2{
@@ -19,6 +19,16 @@
  	font-size:1rem;
  	text-transform:uppercase
  }
+ hr {
+	height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#343a40;
+	color:#343a40;
+	border: 0 none;
+	margin-top: 80px;
+	margin-bottom:80px;
+	}
  h1,h2,h3,h4,h5,h6{
  	font-weight:700
  }
